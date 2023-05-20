@@ -6,7 +6,7 @@ inputEl.addEventListener("input", displayUserName)
 function displayUserName() {
     nameOutputEl.textContent = inputEl.value;
     
-    if(inputEl.value === "") {
+    if(inputEl.value.trim() === "") {
         nameOutputEl.textContent = "Anonymous";
     }  
 }

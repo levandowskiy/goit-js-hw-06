@@ -8,12 +8,12 @@ incrementBtn.addEventListener("click", increment)
 decrementBtn.addEventListener("click", decrement)
 
 
-function increment (event) {
+function increment () {
     counterValue += 1;
     counter.textContent = counterValue;
 }
 
-function decrement (event) {
+function decrement () {
     counterValue -= 1;
     counter.textContent = counterValue;
 }
